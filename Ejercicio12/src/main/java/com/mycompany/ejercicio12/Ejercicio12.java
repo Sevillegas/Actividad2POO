@@ -23,15 +23,14 @@ public class Ejercicio12 {
         if (numero_horas>40) {
             System.out.println(hora_extras = numero_horas - 40);
             if(hora_extras>8){
-            System.out.println( horas_extras_ocho = hora_extras - 8);
-            System.out.println(salario = 40 * valor_hora + 16 * valor_hora + horas_extras_ocho * 3 * valor_hora);}
-            else {
-            System.out.println(salario = 40 * valor_hora+ hora_extras * 2 * valor_hora);
+                System.out.println( horas_extras_ocho = hora_extras - 8);
+                System.out.println(salario = 40 * valor_hora + 16 * valor_hora + horas_extras_ocho * 3 * valor_hora);
+            }else {
+                System.out.println(salario = 40 * valor_hora+ hora_extras * 2 * valor_hora);
             }
-            }//condicional 1
-        else {
-        System.out.println(salario = numero_horas * valor_hora );
+        }else {
+            System.out.println(salario = numero_horas * valor_hora );
         }
-                System.out.println("EL TRABAJADOR: " + nombre + " DEVENGO: $" + salario);       
-    }//void
-}//class
+        System.out.println("EL TRABAJADOR: " + nombre + " DEVENGO: $" + salario);       
+    }
+}

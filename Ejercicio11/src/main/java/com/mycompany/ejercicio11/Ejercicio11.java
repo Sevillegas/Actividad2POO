@@ -23,15 +23,14 @@ public class Ejercicio11 {
         num3 = entrada.nextInt();
         
         if (num1>num2 & num1>num3){
-        System.out.println("El número mayor es: " + num1);
-        }//condicion if
-        else if (num2>num3){
-        System.out.println("El número mayor es: " + num2);
-                }//condicion2
-        else {
-        System.out.println("El número mayor es: " + num3);}//de lo contrario
+            System.out.println("El número mayor es: " + num1);
+        }else if (num2>num3){
+            System.out.println("El número mayor es: " + num2);
+        }else {
+            System.out.println("El número mayor es: " + num3);}
         
         
         
-     }//void  
-}//clase
+        
+     }
+}

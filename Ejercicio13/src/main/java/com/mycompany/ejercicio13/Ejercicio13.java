@@ -16,21 +16,19 @@ public class Ejercicio13 {
         color = entrada.next();
         color = color.toUpperCase();
         if (color.equals("BLANCO") == true) {
-        System.out.println(descuento_porcentaje = 0);
-        }//condicion 1
-        else if (color.equals("VERDE")==true){
-        System.out.println(descuento_porcentaje = 10);
-                }//condicion2
-        else if (color.equals("AMARILLO")==true){
-        System.out.println(descuento_porcentaje = 25);
-                }//condicion3
-        else if (color.equals("AZUL")==true){
-        System.out.println(descuento_porcentaje = 50);
-                }//condicion4
-        else{
-             System.out.println(descuento_porcentaje = 100);}
+            System.out.println(descuento_porcentaje = 0);
+        }else if (color.equals("VERDE")==true){
+            System.out.println(descuento_porcentaje = 10);
+        }else if (color.equals("AMARILLO")==true){
+            System.out.println(descuento_porcentaje = 25);
+        }else if (color.equals("AZUL")==true){
+            System.out.println(descuento_porcentaje = 50);
+        }else{
+            System.out.println(descuento_porcentaje = 100);}
+        
         valor_pagar = valor_compra - descuento_porcentaje * valor_compra / 100;
         System.out.println("EL CLIENTE DEBE PAGAR: $" + valor_pagar);
-                
-    }//void
-}//class
+        
+        
+    }
+}
